@@ -1,0 +1,47 @@
+End User License Agreement — RANDE NY
+
+This EULA supplements the AWS Marketplace Standard Contract / your AWS Customer Agreement; where this EULA is offered as the product's custom EULA, it governs use of the Software.
+
+Effective on the date you (the "Customer") subscribe to or deploy the Software. Licensor: Aequum AI ("Licensor"). Software / Model: the RANDE NY race & ethnicity imputation model, inference container(s), reference data, and documentation made available through AWS Marketplace.
+
+1. License grant
+Subject to this EULA and payment of applicable fees, Licensor grants Customer a non-exclusive, non-transferable, non-sublicensable license to deploy and run the Software within Customer's own AWS account(s) to process Customer's data and generate race/ethnicity estimates and aggregate summaries, for Customer's internal business purposes, for the subscription term.
+
+2. Nature of the output — no determination of fact
+2.1 The Software produces statistical probability estimates of race/ethnicity derived from name and geography. Outputs are not statements of any individual's actual or self-identified race or ethnicity and must not be treated as fact.
+2.2 The model estimates the race/ethnicity signaled by name and geography, which may differ from a person's self-identification; it is a known property of BISG-family methods. Two classes (Native American and "Other/Multiracial") are reported only as an aggregate "unclassified" residual and are not reliably predictable. Accuracy varies by group and geography.
+2.3 The Software is scoped to New York State; results elsewhere are unsupported.
+
+3. Acceptable use and prohibited uses
+Customer is solely responsible for ensuring its use is lawful. Customer shall not, and shall not permit any third party to:
+(a) use the Software or its outputs to make, or as a factor in, decisions about specific individuals — including credit, lending, insurance, housing, employment, education, or the provision of goods/services — in any manner that violates the Equal Credit Opportunity Act, Fair Housing Act, Title VII, the Civil Rights Acts, state/local anti-discrimination law, or any other applicable law;
+(b) use the outputs to target, profile, surveil, or discriminate against any individual or group on the basis of race, ethnicity, or any protected characteristic;
+(c) attempt to re-identify individuals or combine outputs with other data to infer protected attributes for individual adverse action;
+(d) represent the outputs as factual, self-reported, or legally determinative statements of race or ethnicity;
+(e) reverse engineer, decompile, extract, or retrain on the Model or reference data, or redistribute, resell, or sublicense the Software.
+Intended uses include aggregate analysis, fair-lending/fair-housing and equity monitoring, research, and disparity measurement at geographic (e.g., tract/ZCTA) levels — not individual adverse decisions.
+
+4. Customer data; privacy; no egress
+4.1 The Software runs inside Customer's AWS account; Customer's input data is processed locally and is not transmitted to Licensor. Licensor does not receive, store, or access Customer data.
+4.2 Customer is the controller of its input data and is responsible for having all rights and lawful bases to process it and to generate the estimates, and for complying with all applicable privacy laws.
+
+5. Compliance responsibility
+Customer is solely responsible for determining whether its specific use is permitted under, and for complying with, all applicable laws and regulations (including anti-discrimination, fair lending, consumer protection, and privacy laws) and for any required governance, disparate-impact testing, and recordkeeping. Licensor provides no legal or compliance advice.
+
+6. Intellectual property
+Licensor retains all right, title, and interest in and to the Software, the Model, the reference data, and all related IP. No rights are granted except as expressly stated. Outputs generated from Customer data may be used by Customer subject to Sections 2-5.
+
+7. Disclaimers
+THE SOFTWARE AND OUTPUTS ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING ACCURACY, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. LICENSOR DOES NOT WARRANT THAT OUTPUTS ARE ACCURATE, COMPLETE, OR SUITABLE FOR ANY DECISION ABOUT ANY INDIVIDUAL.
+
+8. Limitation of liability
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, LICENSOR SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR LOST PROFITS; AND LICENSOR'S TOTAL LIABILITY SHALL NOT EXCEED THE FEES PAID FOR THE SOFTWARE IN THE 12 MONTHS PRECEDING THE CLAIM.
+
+9. Indemnification
+Customer shall indemnify and hold harmless Licensor from claims arising out of Customer's use of the Software or outputs in violation of this EULA or applicable law.
+
+10. Term and termination
+This EULA continues for the subscription term and terminates automatically on expiration/cancellation or on Customer's material breach (including Section 3). On termination Customer shall cease use and delete the Software.
+
+11. Order of precedence; general
+The AWS Marketplace Standard Contract / AWS Customer Agreement governs payment, deployment, and any conflict regarding AWS-provided terms. This EULA governs Software use and acceptable use. If any provision is unenforceable, the remainder stays in effect. Governing law: New York, excluding conflicts rules.
